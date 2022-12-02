@@ -29,6 +29,8 @@ app.get("/api/users", (req, res) => {
 // /api/users/1      <-- path param (req.params.id)
 // /api/users?id=1   <-- query param (req.query.id)
 
+// BONUS QUESTION - Add routes to implement all the CRUD operations (POST, PUT, DELETE)
+
 app.listen(3000, () => {
     console.log("Example app listening on port 3000!");
 });
